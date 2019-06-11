@@ -153,7 +153,7 @@ header {
 
 /* Your code starts here! */
 .container {
-	width: 70%;
+	width: 800px;
 	margin: 0 auto;
 }
  
@@ -205,9 +205,6 @@ h1 {
 	flex-flow: column wrap;
 	margin: 0 auto;
 	justify-content: center;
-	width: 30%;
-
-	
 }
 
 .top-img {
@@ -216,9 +213,39 @@ h1 {
 }
 
 .middle-img {
-	width: 800px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
 }
 
 
+.top-section {
+	display: flex;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.bottom-section {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.services {
+	width: 30%;
+	padding: 10px;
+}
+
+.product {
+	width: 30%;
+	padding: 10px;
+}
+
+.vision {
+	width: 30%;	
+	padding: 10px;
+}
 
 
