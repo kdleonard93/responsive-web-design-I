@@ -221,9 +221,18 @@ h1 {
 
 .top-section {
 	display: flex;
+	justify-content: space-evenly;
 	padding: 25px 0 25px 0;
 	width: 800px;
 	border-top: 1px solid black;
+}
+
+.features {
+	padding-right: 10px;
+}
+
+.about {
+	padding-left: 10px;
 }
 
 .bottom-section {
