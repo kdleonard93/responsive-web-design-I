@@ -223,8 +223,7 @@ h1 {
 
 .top-section {
 	display: flex;
-	margin: 0 auto;
-	padding: 25px;
+	padding-bottom: 25px;
 	width: 800px;
 }
 
@@ -233,7 +232,7 @@ h1 {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin: 0 auto;
-	padding: 25px;
+	padding-top: 25px;
 	border-bottom: 1px solid black;
 }
 
@@ -267,19 +266,24 @@ footer {
 /* Media Queries */
 
 @media screen and (max-width: 800px) {
+
 	.container {
-		background-color: aquamarine;
+		background-color: ;
 	}
 }
 
 @media screen and (max-width: 500px) {
+
+	body {
+		width: 500px;
+	}
 	.container {
 		display: flex;
 		width: 500px;
 		flex-flow: column nowrap;
 		justify-content: center;
 		align-items: center;
-		background-color: grey;
+		background-color: aquamarine;
 	}
 
 	nav {
@@ -311,12 +315,15 @@ footer {
 	.top-section {
 		display: flex;
 		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
 		width: 500px
 	}
 
 	.features {
 		width: 500px;
 		padding: 20px;
+		margin: 0 auto;
 	}
 
 	.about {
@@ -331,24 +338,26 @@ footer {
 	.bottom-section {
 		display: flex;
 		flex-flow: column wrap;
+		align-content: center;
+		justify-content: center;
 		width: 500px;
+		
 	}
 	
 	.services {
 		width: 500px;
-		padding: 10px;
+		padding: 20px;
 	}
 	
 	.product {
 		width: 500px;
-		padding: 10px;
+		padding: 20px;
 	}
 	
 	.vision {
 		width: 500px;	
-		padding: 10px;
-	}
-	
+		padding: 20px;
+	}	
 }
 
 
