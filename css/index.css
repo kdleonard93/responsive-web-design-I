@@ -217,6 +217,7 @@ h1 {
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
+	width: 800px;
 }
 
 
@@ -224,13 +225,16 @@ h1 {
 	display: flex;
 	margin: 0 auto;
 	padding: 25px;
+	width: 800px;
 }
 
 .bottom-section {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 	margin: 0 auto;
 	padding: 25px;
+	border-bottom: 1px solid black;
 }
 
 .services {
@@ -246,6 +250,18 @@ h1 {
 .vision {
 	width: 30%;	
 	padding: 10px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact {
+	display: flex;
+	padding: 25px;
+	width: 200px;
 }
 
 
